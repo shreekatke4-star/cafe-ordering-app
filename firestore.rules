@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ── Orders collection ────────────────────────────────────────
+    match /orders/{orderId} {
+
+      // Anyone (customers) can place a new order from the menu page
+      allow create: if true;
+
+      // Only the authenticated cafe owner can read, update, or delete
+      allow read, update, delete: if request.auth != null;
+    }
+
+    // ── Default: deny everything else ──────────────────────────
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
