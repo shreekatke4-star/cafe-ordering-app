@@ -34,202 +34,202 @@ const MENU = [
     id: 1, name: "Americano", category: "Iced Coffee",
     desc: "Rich espresso combined with water over ice.",
     price: 119, popular: true,
-    img: "images/Americano.png"
+    img: "Americano.png"
   },
   {
     id: 2, name: "Cafe Latte", category: "Iced Coffee",
     desc: "Smooth espresso blended with creamy milk over ice.",
     price: 149, popular: true,
-    img: "images/Cafe_Latte.png"
+    img: "Cafe_Latte.png"
   },
   {
     id: 3, name: "Cafe Mocha", category: "Iced Coffee",
     desc: "Bold espresso, dark chocolate, and cold milk.",
     price: 169, popular: false,
-    img: "images/Cafe_Mocha.png"
+    img: "Cafe_Mocha.png"
   },
   {
     id: 4, name: "White Mocha", category: "Iced Coffee",
     desc: "Espresso with white chocolate sauce and chilled milk.",
     price: 169, popular: false,
-    img: "images/White_Mocha.png"
+    img: "White_Mocha.png"
   },
   {
     id: 5, name: "Dark Mocha", category: "Iced Coffee",
     desc: "Signature dark chocolate meets bold espresso and ice.",
     price: 169, popular: false,
-    img: "images/Dark_Mocha.png"
+    img: "Dark_Mocha.png"
   },
   {
     id: 6, name: "Caramel Macchiato", category: "Iced Coffee",
     desc: "Chilled milk, vanilla syrup, espresso, and caramel drizzle.",
     price: 169, popular: true,
-    img: "images/Caramel_Macchiato.png"
+    img: "Caramel_Macchiato.png"
   },
   {
     id: 7, name: "French Vanilla Latte", category: "Iced Coffee",
     desc: "Chilled milk, rich French vanilla syrup, and espresso.",
     price: 169, popular: false,
-    img: "images/French_Vanilla_Latte.png"
+    img: "French_Vanilla_Latte.png"
   },
   {
     id: 8, name: "Creamy Vanilla Latte", category: "Iced Coffee",
     desc: "Double shot espresso with creamy textured milk and vanilla.",
     price: 169, popular: false,
-    img: "images/Creamy_Vanilla_Latte.png"
+    img: "Creamy_Vanilla_Latte.png"
   },
   // Frappe
   {
     id: 9, name: "Chocolate", category: "Frappe",
     desc: "Creamy ice-blended chocolate frappe with whipped cream.",
     price: 159, popular: true,
-    img: "images/Chocolate.png"
+    img: "Chocolate.png"
   },
   {
     id: 10, name: "Dark Choco", category: "Frappe",
     desc: "Deep, intense dark chocolate blended with ice.",
     price: 159, popular: false,
-    img: "images/Dark_Choco.png"
+    img: "Dark_Choco.png"
   },
   {
     id: 11, name: "Cookies & Cream", category: "Frappe",
     desc: "Oreo cookie chunks blended with cream and ice.",
     price: 159, popular: true,
-    img: "images/Cookies_and_Cream.png"
+    img: "Cookies_and_Cream.png"
   },
   {
     id: 12, name: "Double Dutch", category: "Frappe",
     desc: "Rich chocolate blend with premium fudge chunks.",
     price: 159, popular: false,
-    img: "images/Double_Dutch.png"
+    img: "Double_Dutch.png"
   },
   {
     id: 13, name: "Salted Caramel", category: "Frappe",
     desc: "Sweet caramel with a touch of sea salt, ice-blended.",
     price: 159, popular: false,
-    img: "images/Salted_Caramel.png"
+    img: "Salted_Caramel.png"
   },
   {
     id: 14, name: "Ube Frappe", category: "Frappe",
     desc: "A unique sweet purple yam frappe, a local favorite.",
     price: 159, popular: false,
-    img: "images/Ube_Frappe.png"
+    img: "Ube_Frappe.png"
   },
   {
     id: 15, name: "Rocky Road", category: "Frappe",
     desc: "Chocolate, marshmallows, and nuts blended with ice.",
     price: 159, popular: false,
-    img: "images/Rocky_Road.png"
+    img: "Rocky_Road.png"
   },
   {
     id: 16, name: "Java Chip", category: "Frappe",
     desc: "Espresso, chocolate chips, and mocha sauce blended with ice.",
     price: 179, popular: true,
-    img: "images/Java_Chip.png"
+    img: "Java_Chip.png"
   },
   {
     id: 17, name: "Red Velvet", category: "Frappe",
     desc: "Decadent red velvet cake flavor blended with cream.",
     price: 179, popular: false,
-    img: "images/Red_Velvet.png"
+    img: "Red_Velvet.png"
   },
   {
     id: 18, name: "Choco Mousse", category: "Frappe",
     desc: "Airy, chocolatey mousse blended smooth with ice.",
     price: 179, popular: false,
-    img: "images/Choco_Mousse.png"
+    img: "Choco_Mousse.png"
   },
   {
     id: 19, name: "Black Forest", category: "Frappe",
     desc: "Rich dark chocolate with sweet cherry tones.",
     price: 179, popular: false,
-    img: "images/Black_Forest.png"
+    img: "Black_Forest.png"
   },
   {
     id: 20, name: "Strawberry", category: "Frappe",
     desc: "Creamy, fruity strawberry cream blend over ice.",
     price: 179, popular: false,
-    img: "images/Strawberry.png"
+    img: "Strawberry.png"
   },
   // Coffee Frappe
   {
     id: 21, name: "Dark Mocha Frappe", category: "Coffee Frappe",
     desc: "Chilled espresso, dark chocolate, and ice blended perfectly.",
     price: 180, popular: true,
-    img: "images/Dark_Mocha_Frappe.png"
+    img: "Dark_Mocha_Frappe.png"
   },
   {
     id: 22, name: "White Mocha Frappe", category: "Coffee Frappe",
     desc: "Rich white chocolate mocha blended with espresso and ice.",
     price: 150, popular: false,
-    img: "images/White_Mocha_Frappe.png"
+    img: "White_Mocha_Frappe.png"
   },
   {
     id: 23, name: "Caramel Macchiato Frappe", category: "Coffee Frappe",
     desc: "Sweet caramel blended with coffee, milk, and ice.",
     price: 180, popular: false,
-    img: "images/Caramel_Macchiato_Frappe.png"
+    img: "Caramel_Macchiato_Frappe.png"
   },
   {
     id: 24, name: "Nata-20 Add-on", category: "Coffee Frappe",
     desc: "Chewy Nata de Coco add-on for your drinks.",
     price: 20, popular: false,
-    img: "images/Nata_de_Coco.png"
+    img: "Nata_de_Coco.png"
   },
   {
     id: 25, name: "Coffee Jelly-25 Add-on", category: "Coffee Frappe",
     desc: "Delicious coffee jelly bits to add texture.",
     price: 25, popular: false,
-    img: "images/Coffee_Jelly.png"
+    img: "Coffee_Jelly.png"
   },
   // Snacks
   {
     id: 26, name: "Strawberry Waffle", category: "Snacks",
     desc: "Fresh, warm waffle topped with sliced strawberries.",
     price: 299, popular: true,
-    img: "images/Strawberry_Waffle.png"
+    img: "Strawberry_Waffle.png"
   },
   {
     id: 27, name: "Cinnamon Roll", category: "Snacks",
     desc: "Warm cinnamon roll topped with rich glaze frosting.",
     price: 199, popular: false,
-    img: "images/Cinnamon_Roll.png"
+    img: "Cinnamon_Roll.png"
   },
   {
     id: 28, name: "Lemon Pie", category: "Snacks",
     desc: "Tangy lemon filling in a flaky buttery crust.",
     price: 249, popular: false,
-    img: "images/Lemon_Pie.png"
+    img: "Lemon_Pie.png"
   },
   {
     id: 29, name: "Croissant", category: "Snacks",
     desc: "Flaky, buttery French croissant baked daily.",
     price: 149, popular: false,
-    img: "images/Croissant.png"
+    img: "Croissant.png"
   },
   {
     id: 30, name: "Chocolate Waffle", category: "Snacks",
     desc: "Rich chocolate batter waffle with chocolate syrup.",
     price: 289, popular: false,
-    img: "images/Chocolate_Waffle.png"
+    img: "Chocolate_Waffle.png"
   },
   {
     id: 31, name: "Brownies", category: "Snacks",
     desc: "Dense, fudgy double chocolate brownie pieces.",
     price: 179, popular: true,
-    img: "images/Brownies.png"
+    img: "Brownies.png"
   },
   {
     id: 32, name: "Cheesecake", category: "Snacks",
     desc: "Creamy baked cheesecake with graham cracker crust.",
     price: 319, popular: false,
-    img: "images/Cheesecake.png"
+    img: "Cheesecake.png"
   },
   {
     id: 33, name: "Chocolate Muffin", category: "Snacks",
     desc: "Soft chocolate muffin loaded with chocolate chips.",
     price: 149, popular: false,
-    img: "images/Chocolate_Muffin.png"
+    img: "Chocolate_Muffin.png"
   }
 ];
 
